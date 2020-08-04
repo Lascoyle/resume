@@ -12,29 +12,38 @@
 </head>
 
 <body>
-    <header class="home">
+    <header id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Resume</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </nav>
         <div class="home-content">
             <h1 class="main-title">Hello, I'm <strong>Charles Anderson</strong></h1>
             <p class="home-text">And this is my resume</p>
         </div>
     </header>
 
-    <section class="portfolio">
+    <section id="portfolio">
         <div class="portfolio-content container">
             <h2 class="subtitle">Feature <strong>Portfolio</strong></h2>
             <ul class="activities">
@@ -90,7 +99,7 @@
         </div>
     </section>
 
-    <section class="resume">
+    <section id="resume">
         <div class="resume-content container">
             <h2 class="subtitle">My <strong>Resume</strong></h2>
             <div class="resume-part">
@@ -150,7 +159,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about">
         <div class="about-content container">
             <img src="images/image_1.jpg" alt="man photography" class="about-illustration img-fluid">
             <div class="about-presentation">
@@ -167,7 +176,7 @@
         </div>
     </section>
 
-    <section class="clients">
+    <section id="clients">
         <div class="clients-content container">
             <h2 class="subtitle">Clients <strong>Testimonial</strong></h2>
             <div class="client-testimonial">
@@ -201,7 +210,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section id="services">
         <div class="services-content container">
             <h2 class="subtitle">My <strong>Services</strong></h2>
             <div class="services-item">
@@ -225,7 +234,7 @@
         </div>
     </section>
 
-    <section class="blog">
+    <section id="blog">
         <div class="blog-content container">
             <h2 class="subtitle"> Blog On <strong>Medium</strong></h2>
             <div class="blog-item card">
@@ -255,7 +264,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact">
         <div class="contact-content container">
             <h2 class="subtitle">Get <strong>In Touch</strong></h2>
             <form action="" class="contact-form">
@@ -306,8 +315,28 @@
         </div>
     </section>
 
-    <footer class="site-footer"></footer>
+    <footer id="site-footer">
+        <p class="footer-text">Copyright © 2020 All rights reserved | This template is made by Colorlib</p>
+        <p class="footer-text">Integration by Cassandra Dutilly</p>
+        <div class="footer-socialmedias">
+            <a href="#" class="footer-socialmedias-link"><img src="" alt="facebook icon" class="footer-socialmedias-icon"></a>
+            <a href="#" class="footer-socialmedias-link"><img src="" alt="twitter icon" class="footer-socialmedias-icon"></a>
+            <a href="#" class="footer-socialmedias-link"><img src="" alt="instagram icon" class="footer-socialmedias-icon"></a>
+            <a href="#" class="footer-socialmedias-link"><img src="" alt="linkedin icon" class="footer-socialmedias-icon"></a>
+            <a href="#" class="footer-socialmedias-link"><img src="" alt="vimeo icon" class="footer-socialmedias-icon"></a>
+        </div>
+    </footer>
     <script src="script.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
