@@ -1,0 +1,34 @@
+.services-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.services-item {
+    background-color: $tertiary-colour;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.services-item-title {
+    margin-top: 30px;
+    color: $main-fontcolour;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.services-item-text {
+    margin-top: 30px;
+}
+
+.services-item-link {
+    color: $secondary-colour;
+}
+
+.services-item-link-arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}

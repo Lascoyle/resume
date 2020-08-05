@@ -21,7 +21,7 @@ body {
   color: #707070 !important;
 }
 
-#portfolio, #resume, #about, #clients, #service, #blog, #contact {
+#portfolio, #resume, #about, #clients, #services, #blog, #contact {
   background-color: #222222;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -281,5 +281,40 @@ img {
 .client-society-link {
   color: #bac964;
   font-style: oblique;
+}
+
+.services-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.services-item {
+  background-color: #333333;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.services-item-title {
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.services-item-text {
+  margin-top: 30px;
+}
+
+.services-item-link {
+  color: #bac964;
+}
+
+.services-item-link-arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
 }
 /*# sourceMappingURL=style.css.map */
