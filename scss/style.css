@@ -178,4 +178,37 @@ img {
   text-transform: uppercase;
   color: #707070;
 }
+
+.resume-part-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.resume-part {
+  padding-top: 70px;
+}
+
+.resume-part-item {
+  background-color: #333333;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  font-weight: 100;
+}
+
+.date {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+.resume-part-item-title {
+  color: #bac964;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
