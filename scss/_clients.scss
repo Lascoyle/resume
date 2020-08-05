@@ -1,0 +1,27 @@
+.client-testimonial {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.client-photo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.client-quote {
+    background-color: $tertiary-colour;
+    padding: 30px;
+    border-radius: 10px;
+    width: 70%;
+    font-weight: 100;
+}
+
+.client-society-link {
+    color: $secondary-colour;
+    font-style: oblique;
+}
+

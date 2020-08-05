@@ -249,4 +249,37 @@ img {
 .btn-emphasis {
   background-color: #bac964 !important;
 }
+
+.client-testimonial {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.client-photo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.client-quote {
+  background-color: #333333;
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  font-weight: 100;
+}
+
+.client-society-link {
+  color: #bac964;
+  font-style: oblique;
+}
 /*# sourceMappingURL=style.css.map */
