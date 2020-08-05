@@ -1,0 +1,22 @@
+body {
+    color: $second-fontcolour!important;
+}
+
+#portfolio, #resume, #about, #clients, #service, #blog, #contact {
+    background-color: $primary-colour;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subtitle {
+    text-align: center;
+    color: $main-fontcolour;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+img {
+    display: block;
+}
