@@ -317,4 +317,42 @@ img {
   width: 10px;
   height: 10px;
 }
+
+.blog-part {
+  margin-top: 70px;
+}
+
+.blog-item {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #333333 !important;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.blog-item-body {
+  padding: 30px !important;
+}
+
+.blog-item-title {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 1.1em;
+  line-height: 30px;
+}
+
+.blog-item-title:hover {
+  color: #bac964;
+  text-decoration: none;
+}
+
+.blog-meta-link {
+  color: #707070;
+  font-size: 0.9em;
+}
+
+.blog-meta-link:hover {
+  color: #bac964;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
