@@ -1,0 +1,36 @@
+.about-illustration {
+    margin-bottom: 60px;
+}
+
+.subtitle-about {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-weight: 100;
+}
+
+.about-text-important {
+    font-size: 1.2em;
+}
+
+.about-buttons {
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.about-btn {
+    border: none!important;
+    background-color: $second-fontcolour!important;
+    color: $main-fontcolour!important;
+    font-size: 0.8em!important;
+    letter-spacing: .2rem;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 8px!important;
+    padding-bottom: 10px!important;
+}
+
+.btn-emphasis {
+    background-color: $secondary-colour!important;
+}
