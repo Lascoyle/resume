@@ -1,0 +1,22 @@
+.contact-form {
+    margin-top: 60px;
+}
+
+.form-control {
+    background-color: $tertiary-colour!important;
+    border: none!important;
+    padding-top: 25px!important;
+    padding-bottom: 25px!important;
+}
+
+.btn-submit {
+    background-color: $secondary-colour!important;
+    border: none!important;
+    color: $main-fontcolour!important;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 0.8em!important;
+    padding: 15px!important;
+    margin-top: 30px;
+}
+

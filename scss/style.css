@@ -355,4 +355,26 @@ img {
   color: #bac964;
   font-weight: bold;
 }
+
+.contact-form {
+  margin-top: 60px;
+}
+
+.form-control {
+  background-color: #333333 !important;
+  border: none !important;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+
+.btn-submit {
+  background-color: #bac964 !important;
+  border: none !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-size: 0.8em !important;
+  padding: 15px !important;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
