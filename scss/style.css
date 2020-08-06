@@ -59,6 +59,15 @@ img {
   color: #333333 !important;
 }
 
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  .navbar-collapse {
+    padding-left: 0%;
+  }
+}
+
 #home {
   background-image: url("../images/image_1.jpg");
   height: 140vh;
