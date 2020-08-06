@@ -12,8 +12,8 @@
 .resume-part-item {
     background-color: $tertiary-colour;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 30px;
     font-weight: 100;
 }
@@ -29,4 +29,15 @@
     font-weight: 100;
     font-size: 1.3em;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1300px) {
+    .resume-parts-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .resume-part {
+        width: 48%;
+    }
 }

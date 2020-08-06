@@ -91,6 +91,11 @@ img {
 
 .main-title {
   font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.home-title-emphasis {
+  font-weight: 800;
 }
 
 .home-text {
@@ -99,6 +104,12 @@ img {
   color: #9c9c9c;
   font-family: "Segoe UI";
   letter-spacing: .2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+  .main-title {
+    font-size: 4.5rem;
+  }
 }
 
 .activities {
@@ -179,6 +190,18 @@ img {
   color: #707070;
 }
 
+@media screen and (min-width: 580px) and (max-width: 900px) {
+  .portfolio-creation {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .portfolio-creation {
+    width: 30%;
+  }
+}
+
 .resume-part-title {
   color: #ffffff;
   font-size: 1.5em;
@@ -193,8 +216,8 @@ img {
 .resume-part-item {
   background-color: #333333;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 30px;
   font-weight: 100;
 }
@@ -210,6 +233,24 @@ img {
   font-weight: 100;
   font-size: 1.3em;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1300px) {
+  .resume-parts-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .resume-part {
+    width: 48%;
+  }
 }
 
 .about-illustration {

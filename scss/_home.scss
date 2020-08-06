@@ -30,6 +30,11 @@
 
 .main-title {
     font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.home-title-emphasis {
+    font-weight: 800;
 }
 
 .home-text {
@@ -38,4 +43,10 @@
     color: #9c9c9c;
     font-family: "Segoe UI";
     letter-spacing: .2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-title {
+        font-size: 4.5rem;
+    }
 }

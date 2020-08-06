@@ -61,3 +61,15 @@
     text-transform: uppercase;
     color: $second-fontcolour;
 }
+
+@media screen and (min-width: 580px) and (max-width: 900px) {
+    .portfolio-creation {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+    .portfolio-creation {
+        width: 30%;
+    }
+}
