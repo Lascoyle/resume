@@ -405,6 +405,26 @@ img {
   height: 10px;
 }
 
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+  .services-item {
+    width: 30%;
+  }
+  .services-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .blog-part {
   margin-top: 70px;
 }
