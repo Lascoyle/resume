@@ -25,3 +25,16 @@
     font-style: oblique;
 }
 
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+    .client-testimonial {
+        width: 50%
+    }
+
+    .client-testimonials-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+

@@ -350,6 +350,26 @@ img {
   font-style: oblique;
 }
 
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+  .client-testimonial {
+    width: 50%;
+  }
+  .client-testimonials-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .services-icon {
   width: 100px;
   height: 100px;
