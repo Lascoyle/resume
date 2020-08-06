@@ -1,3 +1,7 @@
+.blog-illustration {
+    display: block;
+}
+
 .blog-part {
     margin-top: 70px;
 }
@@ -34,4 +38,54 @@
 .blog-meta-link:hover {
     color: $secondary-colour;
     font-weight: bold;
+}
+
+@media screen and (min-width: 770px) and (max-width: 990px) {
+    .blog-illustration {
+        width: 40%;
+    }
+
+    .blog-item-body {
+        width: 40%;
+    }
+
+    .blog-item {
+        display: flex;
+        flex-direction: row!important;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1300px) {
+    .blog-illustration {
+        width: 40%;
+    }
+
+    .blog-item-body {
+        width: 40%;
+    }
+
+    .blog-item {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1300px) {
+    .blog-illustration {
+        width: 100%;
+    }
+
+    .blog-item-body {
+        width: 100%;
+    }
+
+    .blog-item {
+        width: 31.5%;
+    }
+
+    .blog-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
