@@ -1,5 +1,6 @@
 .about-illustration {
     margin-bottom: 60px;
+    display: block;
 }
 
 .subtitle-about {
@@ -33,4 +34,23 @@
 
 .btn-emphasis {
     background-color: $secondary-colour!important;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-illustration {
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .about-presentation {
+        width: 40%;
+    }
+
 }

@@ -255,6 +255,7 @@ img {
 
 .about-illustration {
   margin-bottom: 60px;
+  display: block;
 }
 
 .subtitle-about {
@@ -289,6 +290,31 @@ img {
 
 .btn-emphasis {
   background-color: #bac964 !important;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+  .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-illustration {
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  .about-presentation {
+    width: 40%;
+  }
 }
 
 .client-testimonial {
