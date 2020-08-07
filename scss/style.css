@@ -200,8 +200,8 @@ img {
 .portfolio-creation {
   margin: 0 auto;
   margin-top: 40px;
-  -webkit-animation: creationsFadeIn 0.5s;
-          animation: creationsFadeIn 0.5s;
+  -webkit-animation: creationsFadeIn 1s;
+          animation: creationsFadeIn 1s;
 }
 
 @-webkit-keyframes creationsFadeIn {
