@@ -25,12 +25,26 @@
 
 .services-item-link {
     color: $secondary-colour;
+    display: inline-block;
 }
 
 .services-item-link-arrow {
     display: inline-block;
     width: 10px;
     height: 10px;
+}
+
+.services-item-link:hover {
+    animation: pushing 0.5s
+}
+
+@keyframes pushing {
+    from {
+        margin-right: 0;
+    }
+    to {
+        margin-right: 20px
+    }
 }
 
 @media screen and (min-width: 990px) and (max-width: 1300px) {
