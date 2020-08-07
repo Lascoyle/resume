@@ -10,66 +10,72 @@ let jsMockupCreations = document.getElementsByClassName("mockup-creation");
 let jsTypographyCreations = document.getElementsByClassName("typography-creation");
 let jsPhotographyCreations = document.getElementsByClassName("photography-creation");
 
-function allCreationsDisplayer() {
-    for (let i = 0; i <= jsAllCreations.length; i++) {
-        jsAllCreations[i].style.display = "block";
+
+function allCreationsDisplayer () {
+    for (let item of jsAllCreations) {
+        item.style.display ="block";
+        console.log(item);
     }
 }
 
-function mockupCreationsHider() {
-    for (let i = 0; i <= jsMockupCreations.length; i++) {
-        jsMockupCreations[i].style.display = "none";
+function packagingCreationsHider () {
+    for (let item of jsPackagingCreations) {
+        item.style.display ="none";
+        console.log(item);
     }
 }
 
-function packagingCreationsHider() {
-    for (let i = 0; i <= jsPackagingCreations.length; i++) {
-        jsPackagingCreations[i].style.display = "none";
+function mockupCreationsHider () {
+    for (let item of jsMockupCreations) {
+        item.style.display ="none";
+        console.log(item);
     }
 }
 
-function typographyCreationsHider() {
-    for (let i = 0; i <= jsTypographyCreations.length; i++) {
-        jsTypographyCreations[i].style.display = "none";
+function typographyCreationsHider () {
+    for (let item of jsTypographyCreations) {
+        item.style.display ="none";
+        console.log(item);
     }
 }
 
-function photographyCreationsHider() {
-    for (let i = 0; i <= jsPhotographyCreations.length; i++) {
-        jsPhotographyCreations[i].style.display = "none";
+function photographyCreationsHider () {
+    for (let item of jsPhotographyCreations) {
+        item.style.display ="none";
+        console.log(item);
     }
-}
-
-
-function mockupCreationsDisplayer() {
-    packagingCreationsHider();
-    typographyCreationsHider();
-    photographyCreationsHider();
 }
 
 function packagingCreationsDisplayer() {
+    allCreationsDisplayer();
     mockupCreationsHider();
     typographyCreationsHider();
     photographyCreationsHider();
 }
 
+function mockupCreationsDisplayer() {
+    allCreationsDisplayer();
+    packagingCreationsHider();
+    typographyCreationsHider();
+    photographyCreationsHider();
+}
+
 function typographyCreationsDisplayer() {
+    allCreationsDisplayer();
     packagingCreationsHider();
     mockupCreationsHider();
     photographyCreationsHider();
 }
 
 function photographyCreationsDisplayer() {
+    allCreationsDisplayer();
     packagingCreationsHider();
     typographyCreationsHider();
     mockupCreationsHider();
 }
-
-
 
 jsAll.addEventListener("click", allCreationsDisplayer);
 jsPackaging.addEventListener("click", packagingCreationsDisplayer );
 jsMockup.addEventListener("click",mockupCreationsDisplayer);
 jsTypography.addEventListener("click", typographyCreationsDisplayer);
 jsPhotography.addEventListener("click", photographyCreationsDisplayer);
-
