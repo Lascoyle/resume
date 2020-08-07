@@ -6,7 +6,6 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .activity {
@@ -27,6 +26,7 @@
 .activity-link:hover {
     color: $secondary-colour!important;
     text-decoration: none!important;
+    cursor: pointer;
 }
 
 .emphasis {
@@ -66,10 +66,18 @@
     .portfolio-creation {
         width: 40%;
     }
+
+    .activities {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1300px) {
     .portfolio-creation {
         width: 30%;
+    }
+
+    .activities {
+        width: 80%;
     }
 }
