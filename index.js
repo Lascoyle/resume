@@ -13,35 +13,35 @@ let jsPhotographyCreations = document.getElementsByClassName("photography-creati
 
 function allCreationsDisplayer () {
     for (let item of jsAllCreations) {
-        item.style.display ="block";
+        item.style.display =  "block";
         console.log(item);
     }
 }
 
 function packagingCreationsHider () {
     for (let item of jsPackagingCreations) {
-        item.style.display ="none";
+        item.style.display = "none";
         console.log(item);
     }
 }
 
 function mockupCreationsHider () {
     for (let item of jsMockupCreations) {
-        item.style.display ="none";
+        item.style.display = "none";
         console.log(item);
     }
 }
 
 function typographyCreationsHider () {
     for (let item of jsTypographyCreations) {
-        item.style.display ="none";
+        item.style.display = "none";
         console.log(item);
     }
 }
 
 function photographyCreationsHider () {
     for (let item of jsPhotographyCreations) {
-        item.style.display ="none";
+        item.style.display = "none";
         console.log(item);
     }
 }
@@ -76,6 +76,6 @@ function photographyCreationsDisplayer() {
 
 jsAll.addEventListener("click", allCreationsDisplayer);
 jsPackaging.addEventListener("click", packagingCreationsDisplayer );
-jsMockup.addEventListener("click",mockupCreationsDisplayer);
+jsMockup.addEventListener("click", mockupCreationsDisplayer);
 jsTypography.addEventListener("click", typographyCreationsDisplayer);
 jsPhotography.addEventListener("click", photographyCreationsDisplayer);

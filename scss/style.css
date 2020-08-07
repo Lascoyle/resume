@@ -75,6 +75,26 @@ img {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  -webkit-animation: homeFadeIn 2s;
+          animation: homeFadeIn 2s;
+}
+
+@-webkit-keyframes homeFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes homeFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .header-translucent-layer {
@@ -180,6 +200,34 @@ img {
 .portfolio-creation {
   margin: 0 auto;
   margin-top: 40px;
+  -webkit-animation: creationsFadeIn 0.5s;
+          animation: creationsFadeIn 0.5s;
+}
+
+@-webkit-keyframes creationsFadeIn {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100;
+    height: 100;
+    opacity: 1;
+  }
+}
+
+@keyframes creationsFadeIn {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100;
+    height: 100;
+    opacity: 1;
+  }
 }
 
 .portfolio-creation-content {
@@ -191,12 +239,52 @@ img {
   font-size: 1.3em;
   color: #ffffff;
   padding-top: 20px;
+  -webkit-animation: contentFadeIn 1.5s;
+          animation: contentFadeIn 1.5s;
+}
+
+@-webkit-keyframes titleFadeIn {
+  from {
+    margin: -20%;
+  }
+  to {
+    margin: 0;
+  }
+}
+
+@keyframes titleFadeIn {
+  from {
+    margin: -20%;
+  }
+  to {
+    margin: 0;
+  }
 }
 
 .category {
   font-size: 0.8em;
   text-transform: uppercase;
   color: #707070;
+  -webkit-animation: categoryFadeIn 1.5s;
+          animation: categoryFadeIn 1.5s;
+}
+
+@-webkit-keyframes categoryFadeIn {
+  from {
+    margin: -20%;
+  }
+  to {
+    margin: 0;
+  }
+}
+
+@keyframes categoryFadeIn {
+  from {
+    margin: -20%;
+  }
+  to {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 580px) and (max-width: 900px) {

@@ -6,6 +6,16 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    animation: homeFadeIn 2s;
+}
+
+@keyframes homeFadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 .header-translucent-layer {
